@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+p,h2 {
+    text-align: center;
+}
+
+.score-el {
+    font-family: "Digital-7 V7";
+    font-size: xx-large;
+    font-weight: bold;
+}
