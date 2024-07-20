@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: #3C0753;
 }
 
 .container {
@@ -11,8 +12,74 @@ p,h2 {
     text-align: center;
 }
 
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xxx-large;
+    margin-bottom: 10px;
+    color: white;
+}
 .score-el {
     font-family: "Digital-7 V7";
-    font-size: xx-large;
+    font-size: 10vw;
     font-weight: bold;
+    color: #F94F6D;
+}
+
+#home-score {
+    background-color: black;
+    padding: 35px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+#guest-score {
+    background-color: black;
+    padding: 35px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+button {
+    cursor: pointer;
+    font-family: "Digital-7 V7";
+    font-size: xx-large;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #399918;
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #2d7215;
+    border: 2px solid yellow;
+}
+
+button:active {
+    position: relative;
+    top: 2px;
+}
+
+#reset-btn {
+    font-family: "Digital-7 V7";
+    font-weight: bold;
+    font-size: x-large;
+    padding: 10px;
+    border: 2px solid rgb(209, 3, 3);
+    color: red;
+    background-color: #f3c034;
+    width: 10vw;
+    border-radius: 5px;
+}
+
+#reset-btn:hover {
+    cursor: pointer;
+    background-color: #d1a732;
+    border: 2px solid greenyellow;
+}
+
+#reset-btn:active {
+    position: relative;
+    top: 2px;
 }

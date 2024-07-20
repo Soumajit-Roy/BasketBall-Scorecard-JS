@@ -28,3 +28,11 @@ function gscore3(){
     gcount += 3
     guestScore.textContent = gcount
 }
+
+//reset function
+
+function reset() {
+    let count = 0 
+    homeScore.textContent = count
+    guestScore.textContent = count
+}
