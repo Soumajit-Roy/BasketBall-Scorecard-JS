@@ -10,28 +10,30 @@
     />
   </head>
   <body>
-    <div class="container">
-      <div>
-        <h2>HOME</h2>
-        <div class="score-el">
-          <p id="home-score">0</p>
-          <button id="one-s" onclick="score1()">+1</button>
-          <button id="two-s" onclick="score2()">+2</button>
-          <button id="three-s" onclick="score3()">+3</button>
+    <div class="content">
+      <div class="container">
+        <div>
+          <h2>HOME</h2>
+          <div class="score-el">
+            <p id="home-score">0</p>
+            <button id="one-s" onclick="score1()">+1</button>
+            <button id="two-s" onclick="score2()">+2</button>
+            <button id="three-s" onclick="score3()">+3</button>
+          </div>
+        </div>
+        <div>
+          <h2>GUEST</h2>
+          <div class="score-el">
+            <p id="guest-score">0</p>
+            <button id="one-s" onclick="gscore1()">+1</button>
+            <button id="two-s" onclick="gscore2()">+2</button>
+            <button id="three-s" onclick="gscore3()">+3</button>
+          </div>
         </div>
       </div>
-      <div>
-        <h2>GUEST</h2>
-        <div class="score-el">
-          <p id="guest-score">0</p>
-          <button id="one-s" onclick="gscore1()">+1</button>
-          <button id="two-s" onclick="gscore2()">+2</button>
-          <button id="three-s" onclick="gscore3()">+3</button>
-        </div>
+      <div class="container-x">
+        <p id="reset-btn" onclick="reset()">Reset</p>
       </div>
-    </div>
-    <div class="container">
-      <p id="reset-btn" onclick="reset()">Reset</p>
     </div>
     <script src="index.js"></script>
   </body>
